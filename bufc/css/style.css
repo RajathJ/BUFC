@@ -77,7 +77,8 @@ a:focus {
 .top-bar {
     position: relative;
     height: 90px;
-    background: #000000;
+    color: black;
+    background:#0e569e ;
 }
 
 .top-bar .logo {
@@ -217,11 +218,12 @@ a:focus {
 .navbar-dark .navbar-nav .nav-link.active {
     padding: 10px 10px 8px 10px;
     color: #ffffff;
+    font-size: 100%;
 }
 
 .navbar-dark .navbar-nav .nav-link:hover,
 .navbar-dark .navbar-nav .nav-link.active {
-    color: #aa9166;
+    color: #0e569e;
     transition: none;
 }
 
@@ -253,7 +255,7 @@ a:focus {
     
     .nav-bar,
     .nav-bar .navbar {
-        background: #121518 !important;
+        background: #ff3333 !important; 
     }
     
     .nav-bar .navbar-brand {
@@ -416,7 +418,6 @@ a:focus {
     margin-bottom: 45px;
     padding: 90px 0;
     text-align: center;
-    background: #aa9166;
 }
 
 .page-header h2 {
@@ -426,6 +427,7 @@ a:focus {
     font-weight: 700;
     margin-bottom: 20px;
     padding-bottom: 5px;
+    opacity: 100%;
 }
 
 .page-header h2::after {
@@ -666,7 +668,6 @@ a:focus {
     position: relative;
     width: 100%;
     text-align: center;
-    background: #121518;
     margin-bottom: 30px;
 }
 
@@ -699,12 +700,12 @@ a:focus {
     padding: 25px 15px 15px 15px;
     font-size: 30px;
     font-weight: 600;
-    color: #aa9166;
+    color: #0e569e;
 }
 
 .service .service-item p {
     margin: 0;
-    color: #999999;
+    color: #ff3333;
     padding: 0 25px 25px 25px;
     font-size: 18px;
 }
@@ -717,16 +718,16 @@ a:focus {
     font-weight: 500;
     letter-spacing: 1px;
     text-transform: uppercase;
-    color: #aa9166;
-    border: 2px solid #aa9166;
+    color: #0e569e;
+    border: 2px solid #052e5e;
     border-radius: 0;
-    background: #121518;
+    
     transition: .3s;
 }
 
 .service .service-item:hover a.btn {
     color: #121518;
-    background: #aa9166;
+    background: #2d79c5;
 }
 
 
@@ -1604,7 +1605,7 @@ a:focus {
     max-width: 900px;
     margin: 45px auto -140px auto;
     padding: 30px 15px;
-    background: #aa9166;
+    background: #0e569e;
     z-index: 1;
 }
 
@@ -1658,7 +1659,6 @@ a:focus {
     position: relative;
     margin-top: 45px;
     padding-top: 180px;
-    background: #121518;
     color: #ffffff;
 }
 
@@ -1677,7 +1677,7 @@ a:focus {
     margin-bottom: 30px;
     font-size: 25px;
     font-weight: 600;
-    color: #aa9166;
+    color: #0e569e ;
 }
 
 .footer .footer-link a {
@@ -1696,12 +1696,15 @@ a:focus {
 }
 
 .footer .footer-link a:hover {
-    color: #aa9166;
+    color: #0e569e;
     letter-spacing: 1px;
 }
-
+.footer .footer-contact p:hover{
+    color: #0e569e;
+}
 .footer .footer-contact p i {
     width: 25px;
+    color: #0e569e;
 }
 
 .footer .footer-social {
@@ -1817,3 +1820,7 @@ a:focus {
         width: 70%;
     }
 }
+.ml-auto .btn:hover{
+    background-color: #ff3333;
+}
+
