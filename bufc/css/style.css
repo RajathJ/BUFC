@@ -1221,7 +1221,6 @@ a:focus {
     position: absolute;
     width: 15px;
     height: 5px;
-    background: #aa9166;
     z-index: 1;
 }
 
@@ -1240,7 +1239,6 @@ a:focus {
     position: absolute;
     width: 15px;
     height: 5px;
-    background: #aa9166;
     z-index: 1;
 }
 
@@ -1261,28 +1259,22 @@ a:focus {
 
 .timeline .timeline-container .timeline-content {
     padding: 30px;
-    background: #121518;
+    /* background: #121518; */
     position: relative;
-    border-right: 5px solid #aa9166;
+    border-right: 5px solid #0e569e;
 }
-
-.timeline .timeline-container.right .timeline-content {
-    border-left: 5px solid #aa9166;
-}
-
 .timeline .timeline-container .timeline-content h2 {
     margin-bottom: 15px;
     font-size: 22px;
     font-weight: 600;
-    color: #aa9166;
+    color: #ff3333;
 }
 
 .timeline .timeline-container .timeline-content h2 span {
     display: inline-block;
     margin-right: 15px;
     padding: 5px 10px;
-    color: #121518;
-    background: #aa9166;
+    color: #0e569e;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
 }
@@ -1290,7 +1282,7 @@ a:focus {
 .timeline .timeline-container .timeline-content p {
     margin: 0;
     font-size: 16px;
-    color: #999999;
+    color: #052e5e;
 }
 
 @media (max-width: 767.98px) {
@@ -1321,7 +1313,6 @@ a:focus {
     
     .timeline .timeline-container.left .timeline-content,
     .timeline .timeline-container.right .timeline-content {
-        border-left: 5px solid #aa9166;
         border-right: none;
     }
 }
@@ -1471,7 +1462,6 @@ a:focus {
     margin-bottom: 30px;
     width: 100%;
     padding: 30px;
-    background: #121518;
 }
 
 .contact .contact-item {
@@ -1481,7 +1471,7 @@ a:focus {
     display: flex;
     align-items: flex-start;
     flex-direction: row;
-    border: 2px solid #aa9166;
+    border: 2px solid #0e569e;
 }
 
 .contact .contact-item i {
@@ -1492,8 +1482,8 @@ a:focus {
     align-items: center;
     justify-content: center;
     font-size: 30px;
-    color: #aa9166;
-    border: 2px solid #aa9166;
+    color: #0e569e;
+    border: 2px solid #0e569e;
 }
 
 .contact .contact-text {
@@ -1503,7 +1493,7 @@ a:focus {
 }
 
 .contact .contact-text h2 {
-    color: #aa9166;
+    color: #0e569e;
     font-size: 25px;
     font-weight: 600;
 }
@@ -1527,14 +1517,14 @@ a:focus {
     height: 60px;
     border-radius: 0;
     border-width: 2px;
-    border-color: #121518;
+    border-color: #0e569e;
 }
 
 .contact .contact-form textarea {
     height: 190px;
     border-radius: 0;
     border-width: 2px;
-    border-color: #121518;
+    border-color: #0e569e;
 }
 
 .contact .contact-form .btn {
@@ -1543,16 +1533,15 @@ a:focus {
     font-weight: 500;
     letter-spacing: 1px;
     text-transform: uppercase;
-    color: #aa9166;
-    background: #121518;
-    border: 2px solid #aa9166;
+    color: #ff3333;
+    border: 2px solid #ff3333;
     border-radius: 0;
     transition: .3s;
 }
 
 .contact .contact-form .btn:hover {
-    color: #121518;
-    background: #aa9166;
+    color: white;
+    background: #ff3333;
 }
 
 
