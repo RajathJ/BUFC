@@ -1016,7 +1016,6 @@ a:focus {
     position: relative;
     margin: 0 15px;
     padding: 30px;
-    background: #121518;
     overflow: hidden;
 }
 
@@ -1024,7 +1023,7 @@ a:focus {
     position: absolute;
     top: 0;
     right: 0;
-    color: #333333;
+    color: #ff3333;
     font-size: 60px;
     transform: rotate(45deg);
     z-index: 1;
@@ -1039,7 +1038,7 @@ a:focus {
 }
 
 .testimonial .testimonial-item h2 {
-    color: #aa9166;
+    color: #052e5e;
     font-size: 22px;
     font-weight: 600;
     margin-bottom: 5px;
