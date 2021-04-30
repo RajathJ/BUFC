@@ -218,7 +218,7 @@ a:focus {
 .navbar-dark .navbar-nav .nav-link.active {
     padding: 10px 10px 8px 10px;
     color: #ffffff;
-    font-size: 100%;
+    font-size: 18px;
 }
 
 .navbar-dark .navbar-nav .nav-link:hover,
@@ -236,7 +236,7 @@ a:focus {
 
 .nav-bar .btn {
     color: #ffffff;
-    border: 2px solid #aa9166;
+    border: 2px solid #ffffff;
     border-radius: 0;
 }
 
