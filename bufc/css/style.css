@@ -1781,3 +1781,6 @@ a:focus {
     width: 100%;
     height:70%;
 }
+.center{
+    text-align: center;
+}
