@@ -1060,7 +1060,6 @@ a:focus {
 .blog {
     position: relative;
     width: 100%;
-    padding: 45px 0;
 }
 
 .blog .blog-carousel {
@@ -1777,4 +1776,8 @@ a:focus {
 }
 #lipo{
     margin-left: -95px;
+}
+.limit-size img{
+    width: 100%;
+    height:70%;
 }
