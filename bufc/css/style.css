@@ -1783,4 +1783,6 @@ a:focus {
 }
 .center{
     text-align: center;
+    color: #0e569e;
+    font: bolder;
 }
