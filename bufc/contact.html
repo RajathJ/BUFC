@@ -148,21 +148,21 @@
                         </div>
                         <div class="col-md-6">
                             <div class="contact-form">
-                                <form>
+                                <form action="./feedback_form.php" method="POST">
                                     <div class="form-group">
-                                        <input type="text" class="form-control" placeholder="Your Name" required="required" />
+                                        <input type="text" class="form-control" placeholder="Your Name" required="required" name="name"/>
                                     </div>
                                     <div class="form-group">
-                                        <input type="email" class="form-control" placeholder="Your Email" required="required" />
+                                        <input type="email" class="form-control" placeholder="Your Email" required="required" name="email_address"/>
                                     </div>
                                     <div class="form-group">
-                                        <input type="text" class="form-control" placeholder="Subject" required="required" />
+                                        <input type="text" class="form-control" placeholder="Subject" required="required" name="subject"/>
                                     </div>
                                     <div class="form-group">
-                                        <textarea class="form-control" placeholder="Message" required="required" ></textarea>
+                                        <textarea class="form-control" placeholder="Message" required="required" name="message"></textarea>
                                     </div>
                                     <div>
-                                        <button class="btn" type="submit">Send Message</button>
+                                        <button class="btn" type="submit" name="sent">Send Message</button>
                                     </div>
                                 </form>
                             </div>
