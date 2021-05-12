@@ -1793,3 +1793,11 @@ a:focus {
 #venka img{
     height: 70vh;
 }
+.img-2021 img{
+    width: 33%;
+    height: 50vh;
+    padding-bottom: 5px;
+}
+.img-2021 div{
+    display: inline;
+}
