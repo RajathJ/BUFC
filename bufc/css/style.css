@@ -486,7 +486,7 @@ a:focus {
 .section-header h2 {
     margin: 0;
     position: relative;
-    font-size: 50px;
+    font-size: 45px;
     font-weight: 700;
     white-space: nowrap;
     z-index: 1;
@@ -1814,15 +1814,20 @@ a:focus {
 .logo img{
     width: 100%;
 }
-#up{
-    margin-top: -140px;
-}
-#down{
-    margin-top: 140px;
-}
-#middle{
-    margin-top: -200px;
-}
-#up-down{
-    margin-top: -230px;
+@media(min-width:768px){
+    #up{
+        margin-top: -140px;
+    }
+    #down{
+        margin-top: 140px;
+    }
+    #middle{
+        margin-top: -200px;
+    }
+    #up-down{
+        margin-top: -230px;
+    }
+    #extreme{
+        margin-top: -200px;
+    }
 }
